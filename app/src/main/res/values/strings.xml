@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flixster</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="discover">Discover</string>
+    <string name="see_more">More</string>
+</resources>
