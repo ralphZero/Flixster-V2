@@ -20,11 +20,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:fontFamily="@font/roboto"
                     android:padding="8dp"
                     android:text="@string/now_playing"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="24sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -35,7 +36,10 @@
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
                     android:drawablePadding="3dp"
-                    android:text="@string/see_more" />
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/see_more"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -59,11 +63,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:fontFamily="@font/roboto"
                     android:padding="8dp"
                     android:text="@string/upcoming_movies"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="24sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -75,7 +80,10 @@
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
                     android:drawablePadding="3dp"
-                    android:text="@string/see_more" />
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/see_more"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -100,11 +108,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:fontFamily="@font/roboto"
                     android:padding="8dp"
                     android:text="@string/popular_movies"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="24sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -115,7 +124,10 @@
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
                     android:drawablePadding="3dp"
-                    android:text="@string/see_more" />
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/see_more"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -139,11 +151,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:fontFamily="@font/roboto"
                     android:padding="8dp"
                     android:text="@string/top_rated_movies"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textSize="24sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -154,7 +167,10 @@
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
                     android:drawablePadding="3dp"
-                    android:text="@string/see_more" />
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/see_more"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView

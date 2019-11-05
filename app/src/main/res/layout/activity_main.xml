@@ -23,7 +23,7 @@
             android:paddingLeft="1dp"
             android:paddingRight="1dp"
             android:spinnerMode="dialog"
-            android:textAlignment="viewEnd" />
+            android:textAlignment="textEnd" />
 
     </androidx.appcompat.widget.Toolbar>
 
