@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="toolbar" format="reference" />
+    <attr name="titleTextView" format="reference"/>
+    <attr name="seeMoreButton" format="reference"/>
+</resources>

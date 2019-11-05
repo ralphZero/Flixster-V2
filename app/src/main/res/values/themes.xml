@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FlixsterLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbar">@style/AppTheme.ToolbarTheme</item>
+        <item name="titleTextView">@style/AppTheme.TextViewTheme</item>
+        <item name="seeMoreButton">@style/AppTheme.MoreButtonTheme</item>
+    </style>
+    
+    <style name="Theme.FlixsterDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="toolbar">@style/AppTheme.Dark.ToolbarTheme</item>
+        <item name="titleTextView">@style/AppTheme.Dark.TextViewTheme</item>
+        <item name="seeMoreButton">@style/AppTheme.Dark.MoreButtonTheme</item>
+    </style>
+</resources>

@@ -18,28 +18,20 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    style="?attr/titleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/roboto"
                     android:padding="8dp"
-                    android:text="@string/now_playing"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="@string/now_playing" />
 
                 <Button
+                    style="?attr/seeMoreButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="10dp"
-                    android:background="@android:color/transparent"
-                    android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
-                    android:drawablePadding="3dp"
-                    android:fontFamily="@font/roboto"
-                    android:text="@string/see_more"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    android:text="@string/see_more" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -61,29 +53,20 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    style="?attr/titleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/roboto"
                     android:padding="8dp"
-                    android:text="@string/upcoming_movies"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="@string/upcoming_movies" />
 
                 <Button
-                    android:id="@+id/button"
+                    style="?attr/seeMoreButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="10dp"
-                    android:background="@android:color/transparent"
-                    android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
-                    android:drawablePadding="3dp"
-                    android:fontFamily="@font/roboto"
-                    android:text="@string/see_more"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    android:text="@string/see_more" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -106,28 +89,20 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    style="?attr/titleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/roboto"
                     android:padding="8dp"
-                    android:text="@string/popular_movies"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="@string/popular_movies" />
 
                 <Button
+                    style="?attr/seeMoreButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="10dp"
-                    android:background="@android:color/transparent"
-                    android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
-                    android:drawablePadding="3dp"
-                    android:fontFamily="@font/roboto"
-                    android:text="@string/see_more"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    android:text="@string/see_more" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -149,28 +124,20 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    style="?attr/titleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/roboto"
                     android:padding="8dp"
-                    android:text="@string/top_rated_movies"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="@string/top_rated_movies" />
 
                 <Button
+                    style="?attr/seeMoreButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="10dp"
-                    android:background="@android:color/transparent"
-                    android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
-                    android:drawablePadding="3dp"
-                    android:fontFamily="@font/roboto"
-                    android:text="@string/see_more"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    android:text="@string/see_more" />
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
